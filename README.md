@@ -1,8 +1,14 @@
 # bad-posture-detector
 
+
+Sitting in front of a laptop for long hours, I found myself spending hours hunched over my laptop, unaware of how it affected my posture.
+
+I was experiencing the consequences of poor posture – backaches, neck pain, etc. 
+
+
 ## Overview
 
-This program is designed to detect deviations in a person's posture using the laptop's webcam. It leverages the power of the Mediapipe library to analyze the pose of an individual in real-time and determine whether their posture is good or bad. It provides instant feedback to the user and keeps track of instances of bad posture.
+This program is designed to detect deviations in a person's posture using the laptop's webcam. It leverages the Mediapipe library to analyze the pose of an individual in real-time and determine whether their posture is good or bad. It provides instant feedback to the user and keeps track of instances of bad posture.
 
 ## Features
 
@@ -13,13 +19,6 @@ This program is designed to detect deviations in a person's posture using the la
 - **Feedback**: The program instantly notifies the user whether they have good or bad posture, allowing them to make immediate corrections.
 
 - **Bad Posture Count**: It keeps track of instances of bad posture, helping users monitor their posture improvement over time.
-
-## Requirements
-
-- **Python 3.x**
-- **OpenCV**: Used for video capture and display (`pip install opencv-python`).
-- **Mediapipe**: Empowers the program for pose estimation (`pip install mediapipe`).
-- **NumPy**: Required for matrix calculations (`pip install numpy`).
 
 ## Usage
 
