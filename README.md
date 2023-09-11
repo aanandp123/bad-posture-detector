@@ -32,12 +32,3 @@ This project is designed to detect deviations in a person's posture using the la
 5. **Exit**: To exit, press 'z' on the keyboard.
 
 
-## Customization
-
-You can customize the behavior of the detection by adjusting the following parameters in the `posture_detection.py` file:
-
-- `still`: Set to `True` for still image mode or `False` for real-time webcam mode.
-- `upperBody`: Set to `True` to track only upper body keypoints, or `False` for full-body tracking.
-- `smoothData`: Set to `True` to enable smoothing of pose landmarks.
-- `tol1` and `tol2`: Adjust the minimum confidence thresholds for detection and tracking.
-
