@@ -1,6 +1,6 @@
 # bad-posture-detector
 
-
+## Motivation
 Sitting in front of a laptop for long hours, I found myself spending hours hunched over my laptop, unaware of how it affected my posture.
 
 I was experiencing the consequences of poor posture – backaches, neck pain, etc. 
@@ -8,7 +8,7 @@ I was experiencing the consequences of poor posture – backaches, neck pain, et
 
 ## Overview
 
-This project is designed to detect deviations in a person's posture using the laptop's webcam. It leverages the Mediapipe library to analyze the pose of an individual in real time and determine whether their posture is good or bad. It provides instant feedback to the user and keeps track of instances of bad posture.
+This repository contains a posture detection system implemented using a Convolutional Neural Network (CNN). The CNN is trained to classify good and bad postures based on images captured in real-time through a webcam. The model achieves an accuracy of around 91% and an F1 score of approximately 0.86.
 
 ## Features
 
@@ -18,17 +18,14 @@ This project is designed to detect deviations in a person's posture using the la
 
 - **Feedback**: Instantly notifies the user whether they have good or bad posture, allowing them to make immediate corrections.
 
-- **Bad Posture Count**: It keeps track of instances of bad posture, helping users monitor their posture improvement over time.
+- **Data Analytics**: After exit, graphs will be displayed showing the percentage of time spent in bad and good posture and 
+time periods with corresponding posture classifications in a line graph.
 
 ## Usage
 
 1. **Clone the Repository**: Start by cloning this repository to your local machine:
-2. **Navigate to the Project Directory**: Change into the project directory:
-3. **Run**: Execute the file
-4. **Follow On-Screen Instructions**:
-   - Initially, show your correct posture in front of the camera and press 't' on the keyboard when you are ready to train the model.
-   - After training, continuous analysis of your posture to display "Good Posture" or "Bad Posture" accordingly.
-   - Instances of bad posture are counted.
-5. **Exit**: To exit, press 'z' on the keyboard.
+2. **Get started with data and model**:To train the model locally, add the posture data from the Google Drive link to the specified folder and run model.py. Alternatively, obtain the pre-trained model.keras file from the provided Google Drive link.
+3. **Run**: Execute the file main.py
+4. **Exit**: To exit, press 'q' on the keyboard. Data analytics will be displayed.
 
 
