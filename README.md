@@ -24,7 +24,7 @@ time periods with corresponding posture classifications in a line graph.
 ## Usage
 
 1. **Clone the Repository**: Start by cloning this repository to your local machine:
-2. **Get started with data and model**:To train the model locally, add the posture data from the Google Drive link to the specified folder and run model.py. Alternatively, obtain the pre-trained model.keras file from the provided Google Drive link.
+2. **Get started with data and model**:To train the model locally, add the posture data from the [Google Drive link](https://drive.google.com/drive/folders/1wEEhLjiLXRKSM8nxcFO0FctLU7Eil-O0?usp=share_link) to the specified folder and run model.py. Alternatively, obtain the pre-trained model.keras file from the provided [Google Drive link](https://drive.google.com/drive/folders/1wEEhLjiLXRKSM8nxcFO0FctLU7Eil-O0?usp=share_link).
 3. **Run**: Execute the file main.py
 4. **Exit**: To exit, press 'q' on the keyboard. Data analytics will be displayed.
 
